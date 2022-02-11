@@ -6,10 +6,15 @@ The problem: the job title of "Social Media Personality" is one that is rapidly 
 
 This project is directed at [mcd00dle](https://www.twitch.tv/mcd00dle), a Twitch streamer with a modest following who is trying to decide if she wants to pursue playing music on Twitch as a career or become a music teacher. This project will be able to provide statistic-backed insights to help inform whether she could feasibly pursue a career in social media, and if so, what her best chance is for success. This is a large upgrade over the anecdotal evidence and survivor bias that is pervasive in the field.
 ## Design
+
 ## Data
 Viewership data of the top 1600 music streamers from the past 3 months was taken from [sullygnome](https://sullygnome.com/). That data was cross-referenced with subscription data from [twitchstats](https://twitchstats.net/) to provide income and date of account creation.
 
+Data analysis showed that roughly a third of partnered streamers had monthly base income of at least $1000 before tips. These streamers typically streamed between 20-100 hours per month, with base income topping out at $13,500 after excluding outliers. There was a wide variety of start dates for streamers, so success wasn't entirely skewed toward first adopters. It is definitely a competitive field, but not a strictly exclusive one.
+
 Data for further exploration can be taken from the "About" page of each streamer on [Twitch.tv](https://www.twitch.tv). Streamers provide links to their other social media platforms, which has follower information that can be scraped or be fed into another aggregate site similar to the ones (sullygnome, twitchstats) already used.
+
+While arguably the most important aspect of an entertainer's success, how entertaining they are, is not easily quantifiable, speed of growth on various platforms could be used as a proxy. 
 ## Tools/Techniques
 * BeautifulSoup and Selenium were used for web scraping
 * pandas was used to convert the scraped data into .csv form
