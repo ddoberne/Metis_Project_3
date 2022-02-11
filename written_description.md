@@ -7,6 +7,14 @@ The problem: the job title of "Social Media Personality" is one that is rapidly 
 This project is directed at [mcd00dle](https://www.twitch.tv/mcd00dle), a Twitch streamer with a modest following who is trying to decide if she wants to pursue playing music on Twitch as a career or become a music teacher. This project will be able to provide statistic-backed insights to help inform whether she could feasibly pursue a career in social media, and if so, what her best chance is for success. This is a large upgrade over the anecdotal evidence and survivor bias that is pervasive in the field.
 ## Design
 
+Answer the following questions:
+* What are the indicators of success on Twitch given other social media platforms?
+* Do certain other platforms help favor growth over income or vice versa? Eg. does TikTok bring in a lot of followers who don't pay for a subscription?
+* How does account creation date affect channel growth? Eg. was Facebook successful in the early '10s but less successful later?
+
+Most importantly, the process will be iterative to keep up with the fast-changing landscape of social media.
+
+
 ## Data
 Viewership data of the top 1600 music streamers from the past 3 months was taken from [sullygnome](https://sullygnome.com/). That data was cross-referenced with subscription data from [twitchstats](https://twitchstats.net/) to provide income and date of account creation.
 
@@ -21,6 +29,6 @@ While arguably the most important aspect of an entertainer's success, how entert
 * Google Sheets was used to merge the datasets, calculate new fields, clean the data, and filter the data for presentation
 * Tableau was used for visualization
 ## Communication
-The findings from preliminary EDA are available on a [Tableau dashboard](https://public.tableau.com/app/profile/dayv.doberne/viz/TwitchMusicbyStreamerFinal/Dashboard1?publish=yes) and in [presentation slides](/Making%20It%20Big%20on%20Twitch.pdf). Furthermore, the project will be presented in a five-minute presentation and in an article on [my blog](https://ddoberne.wordpress.com/)
+The findings from preliminary EDA are available on a [Tableau dashboard](https://public.tableau.com/app/profile/dayv.doberne/viz/TwitchMusicbyStreamerFinal/Dashboard1?publish=yes) and in [presentation slides](/Making%20It%20Big%20on%20Twitch.pdf). Furthermore, the project will be presented in a five-minute presentation and in an article on [my blog](https://ddoberne.wordpress.com/).
 ## Just For Fun
 [Alex Moukala on artistry and recognition on social media](https://twitter.com/alex_moukala/status/1488152170721681408?s=20&t=0YW9O0fEJYABXqkL5OtFgw)
