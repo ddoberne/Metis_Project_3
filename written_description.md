@@ -8,12 +8,14 @@ This project is directed at [mcd00dle](https://www.twitch.tv/mcd00dle), a Twitch
 ## Design
 ## Data
 Viewership data of the top 1600 music streamers from the past 3 months was taken from [sullygnome](https://sullygnome.com/). That data was cross-referenced with subscription data from [twitchstats](https://twitchstats.net/) to provide income and date of account creation.
+
+Data for further exploration can be taken from the "About" page of each streamer on [Twitch.tv](https://www.twitch.tv). Streamers provide links to their other social media platforms, which has follower information that can be scraped or be fed into another aggregate site similar to the ones (sullygnome, twitchstats) already used.
 ## Tools/Techniques
 * BeautifulSoup and Selenium were used for web scraping
 * pandas was used to convert the scraped data into .csv form
 * Google Sheets was used to merge the datasets, calculate new fields, clean the data, and filter the data for presentation
 * Tableau was used for visualization
 ## Communication
-
+The findings from preliminary EDA are available on a [Tableau dashboard](https://public.tableau.com/app/profile/dayv.doberne/viz/TwitchMusicbyStreamerFinal/Dashboard1?publish=yes) and in [presentation slides](/Making%20It%20Big%20on%20Twitch.pdf). Furthermore, the project will be presented in a five-minute presentation and in an article on [my blog](https://ddoberne.wordpress.com/)
 ## Just For Fun
-[Alex Moukala on artistry and recognition on the internet](https://twitter.com/alex_moukala/status/1488152170721681408?s=20&t=0YW9O0fEJYABXqkL5OtFgw)
+[Alex Moukala on artistry and recognition on social media](https://twitter.com/alex_moukala/status/1488152170721681408?s=20&t=0YW9O0fEJYABXqkL5OtFgw)
