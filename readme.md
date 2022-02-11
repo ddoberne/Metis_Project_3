@@ -1,5 +1,5 @@
 # Making It Big on Twitch
-* [Presentation slides (5 min)](/making%20it%20big%20on%20twitch.pdf)
+* [Presentation slides (5 min)](/Making%20It%20Big%20on%20Twitch.pdf)
 * [Tableau Dashboard](https://public.tableau.com/app/profile/dayv.doberne/viz/TwitchMusicbyStreamerFinal/Dashboard1?publish=yes)
 
 ## Additional Resources
